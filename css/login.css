@@ -1,0 +1,66 @@
+/* DROPDOWN BUTTON */
+.dropbtn{
+    cursor: pointer;
+    /*float: right;*/
+    width:  40px;
+    height: 40px;
+}
+
+
+/* Dropdown button on hover & focus */
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown{
+    position: relative;
+    /*display: inline-block;*/
+    float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 8;
+
+    background-color: white;
+    min-width: 160px;/*dropdown-content will not go down than this min-width*/
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    top:  100%;
+    left: -110%;
+    border-radius: 2px;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #082c74;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+.dropdown-content img{
+    padding: 1em;
+}
+
+/* Change color of dropdown links on hover  */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+/*media query*/
+@media (min-device-width: 390px) and (max-device-width: 525px) {
+    .dropdown-content {
+        left: -140%;
+    }  
+}
+
+@media (min-device-width: 0px) and (max-device-width: 389px) {
+    .dropdown-content {
+        left: -220%;
+    }  
+}

@@ -1,0 +1,20 @@
+footer{
+    background-color: #082c74;
+    /*position:absolute;*/
+    bottom:0;
+}
+
+.foot1{
+  padding: 1em;
+}
+
+.foot1 p{
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
+
+.foot2 a{
+  text-decoration: none;
+  padding: 0.1em;
+}

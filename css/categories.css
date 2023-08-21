@@ -1,0 +1,21 @@
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subcategories1{ margin: 20px;}
+.subcategories2{ margin: 20px;}
+.subcategories3{ margin: 20px;}
+.subcategories4{ margin: 20px;}
+.subcategories5{ margin: 20px;}
+.subcategories6{ margin: 20px;}
+
+
+
+.subcategories1 img{ border-radius: 50%;}
+.subcategories2 img{ border-radius: 50%;}
+.subcategories3 img{ border-radius: 50%;}
+.subcategories4 img{ border-radius: 50%;}
+.subcategories5 img{ border-radius: 50%;}
+.subcategories6 img{ border-radius: 50%;}

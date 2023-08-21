@@ -1,0 +1,258 @@
+.heading{
+    display: flex;
+    margin: 25px;
+    font-size: 25px;
+}
+
+.heading1{
+   flex-grow: 2;
+}
+
+.heading2{
+    flex-grow: 8;
+    text-align: center;
+}
+
+.heading2 h1{
+    margin: 0;
+}
+
+.heading3{
+    flex-grow: 5;
+}
+
+.heading1 a{
+    text-decoration: none;
+    float: left;
+    color: #00b9f5;
+}
+
+.heading3 a{
+    text-decoration: none;
+    float: right;
+    color: #00b9f5;
+}
+
+
+/*<table>*/
+
+th{
+    background-color: #082c74;
+    color: white;
+}
+
+th,td{
+    padding: 0.5em;
+}
+
+tr:nth-child(odd) {
+    background-color: #bdebfa;
+}
+
+input[type = submit]{
+    width: 55px;
+}
+
+input[type = text]{
+    width: 115px;
+}
+
+/*</table>*/
+
+
+
+.settings{
+    float: right;
+    margin: 20px;
+}
+
+
+
+
+.formgrid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding-left:  200px;
+    padding-right: 200px;
+}
+
+.formgrid1{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.formgrid1 input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid2{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.formgrid2 input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid3{
+    margin: 5px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.formgrid3 input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid4{
+    margin: 5px;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.formgrid4 input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid5{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.formgrid5 input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid6{
+    margin: 5px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.formgrid6 input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid7{
+    margin: 5px;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.formgrid7 input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid8{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.formgrid8 input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid11{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.formgrid11 textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid12{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.formgrid12 textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid13{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.formgrid13 textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid14{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.formgrid14 textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid15{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.formgrid15 select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid16{
+    margin: 5px;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.formgrid16 select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.formgrid17{
+    margin: 5px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.formgrid17 input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+}

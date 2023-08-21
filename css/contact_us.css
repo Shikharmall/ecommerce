@@ -1,0 +1,143 @@
+.secLast a{
+    padding: 0.3em;
+}
+
+.feedback h2{
+    color: #00b9f5;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2em;
+}
+
+
+.feedback input{
+    width: 500px;
+    padding: 1em;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.feedback textarea{
+    width: 500px;
+    padding: 1em;
+    margin: 10px;
+    height: 250px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type = "submit"]{
+     color: white;
+     background-color: #00b9f5;
+     border: none;
+     font-size: 18px;
+     font-weight: bold;
+     width: 300px;
+     cursor: pointer;
+}
+
+.contact{
+    padding-right: 20px;
+}
+
+/*feedback*/
+
+@media (min-device-width: 600px) and (max-device-width: 693px) {
+  
+    .feedback input{
+        width: 450px;
+    }
+    
+    .feedback textarea{
+        width: 450px;
+    }
+  
+}
+
+@media (min-device-width: 404px) and (max-device-width: 599px) {
+  
+    .feedback input{
+        width: 350px;
+    }
+    
+    .feedback textarea{
+        width: 350px;
+    }
+
+    
+  
+}
+
+
+@media (min-device-width: 353px) and (max-device-width: 403px) {
+  
+    .feedback input{
+        width: 300px;
+    }
+    
+    .feedback textarea{
+        width: 300px;
+    }
+
+  
+}
+
+@media (min-device-width: 0px) and (max-device-width: 352px) {
+  
+    .feedback input{
+        width: 250px;
+    }
+    
+    .feedback textarea{
+        width: 250px;
+    }
+    
+    input[type = "submit"]{
+         width: 250px;
+    }
+  
+}
+
+/*about us*/
+
+@media (min-device-width: 322px) and (max-device-width: 419px) {
+  
+    .abt{
+        
+        margin: 2em;
+    }
+  
+}
+
+@media (min-device-width: 290px) and (max-device-width: 321px) {
+
+    .abt{
+        
+        margin: 1em;
+    }
+  
+}
+
+@media (min-device-width: 275px) and (max-device-width: 289px) {
+
+    .abt{
+        
+        margin: 0.3em;
+    }
+  
+}
+@media (min-device-width: 0px) and (max-device-width: 274px) {
+
+    .abt{
+        margin: 0.3em;
+    }
+    #abt1{
+        margin-left: 1em;
+        padding: 0.5em;
+    }
+
+    #abt2 p{
+        font-size: 15px;
+    }
+  
+}

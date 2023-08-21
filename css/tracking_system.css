@@ -1,0 +1,87 @@
+.heading h1{
+    color: #082c74;
+    font-size: 2em;
+}
+
+
+table{
+  margin: 5px;
+}
+
+th{
+    background-color: #082c74;
+    color: white;
+}
+
+th,td{
+    padding: 0.75em;
+}
+
+td{
+    border: 1px solid #00b9f5;
+}
+
+.conshdetails input{
+  padding: 1em;
+  width: 20em;
+}
+
+.conshdetails input[type = text]:focus{
+  outline: none !important;
+  border: #00b9f5 1.5px solid;
+}
+
+.conshdetailsub input{
+  padding: 1em;
+  width: 20em;
+}
+
+
+
+.conshdetailsub input[type = submit]{
+    color: white;
+    background-color: #00b9f5;
+    border: none;
+    width: 10em;
+}
+
+.conshdetailsub input[type = submit]:hover{
+    cursor: pointer;
+}
+
+
+.tick{
+  float: right;
+}
+
+
+@media only screen  and (min-device-width: 350px) and (max-device-width: 548px) {
+  
+  .heading h1{
+    font-size: 2em;
+    
+  }
+
+}
+
+@media only screen  and (min-device-width: 0px) and  (max-device-width: 349px) {
+  
+  .heading h1{
+    font-size: 1.5em;
+    
+  }
+
+}
+
+@media only screen  and  (max-device-width: 360px) {
+  
+
+  th,td{
+     padding: 0.6em;
+  }
+
+  .conshdetails input{
+    width: auto;
+  }
+
+}

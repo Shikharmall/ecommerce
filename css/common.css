@@ -1,0 +1,49 @@
+*{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    margin : 0%;
+}
+
+/* preloder */
+
+.sarus-bird{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.sarus-bird1{
+  align-self: flex-end;
+}
+
+#sarus_body{
+  display: none;
+}
+
+
+
+
+/*color*/
+
+#lgt-blue{
+  color: #00b9f5;
+}
+
+#drk-blue{
+  color: #082c74;  
+}
+
+#grey{
+  color: rgb(112, 112, 112);
+}
+
+
+
+
+
+

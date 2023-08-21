@@ -1,0 +1,191 @@
+
+.field_set{
+    border-color: #00b9f5;
+    border-radius: 1em;
+}
+
+.productdetails{
+    display: flex;
+}
+
+.productsubdetails{
+    padding: 10px;
+ }
+
+.productsubdetails h3 ,.productsubdetails p{
+   margin: 0;
+}
+
+
+.prcdet li{
+    float: left;
+    list-style: none;
+    padding:13px 20px;
+    
+}
+
+.prcdet li a{
+    text-decoration: none;
+}
+
+.infogather{
+    margin: 2em;
+}
+
+input{
+    padding: 1em ;
+    border-radius: 8px;
+    border: rgb(112, 112, 112) 1.5px solid;
+    color: rgb(112, 112, 112);
+    box-sizing: border-box;
+    /*border-color: #00b9f5;*/
+}
+
+/*
+input:focus{
+    outline: #00b9f5;
+}*/
+
+input:focus{
+    outline: none !important;
+    border: #00b9f5 1.5px solid;
+}
+
+
+/*
+#fname :focus{
+    border-color: #00b9f5;
+}*/
+
+
+.formgrid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.formgrid1{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.formgrid2{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.formgrid3{
+    margin: 5px;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.formgrid4{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.formgrid5{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.formgrid6{
+    margin: 5px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.formgrid7{
+    margin: 5px;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.formgrid8{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.formgrid9{
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.formgrid10{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.warning{
+    padding-left: 15px;
+    color: rgb(252, 55, 55);
+}
+
+#demo{
+   display: none;
+   margin-bottom: 0px;
+}
+
+#demo1{
+   display: none;
+   margin-bottom: 0px;
+}
+
+
+#fname,#lname,#country,#email,#address,#phone ,#city,#state,#pincode{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/*submit button*/
+#submit{
+    background-color: #00b9f5;
+    color: white;
+    border: none;
+    padding: 1.5em;
+}
+#submit:hover{
+   cursor: pointer;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 1em;
+    color: rgb(112, 112, 112);
+}
+
+
+
+
+
+
+/*legend heading*/
+
+@media (min-device-width: 374px) and (max-device-width: 440px) {
+  
+    .field_set h1{
+       font-size: 25px;
+   }
+  
+}
+
+@media (min-device-width: 0px) and (max-device-width: 373px) {
+  
+    .field_set h1{
+       font-size: 20px;
+   }
+  
+}

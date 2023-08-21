@@ -1,0 +1,35 @@
+#ss_subm{
+    font-weight: 900;
+    padding: 8px;
+    width: 13%;
+    color: white;
+    background-color: #00b9f5;
+    border: none;
+}
+
+#ss_subm:hover{
+    cursor: pointer;
+}
+
+.heading{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3em;
+}
+.thanking{
+    margin-top: 10%;
+}
+
+.navigator{
+    margin-left: 30px;
+}
+
+
+@media only screen and (max-device-width: 1410px) {
+  
+    #ss_subm{
+        width: 200px;
+    }
+  
+}
+
+
